@@ -26,7 +26,7 @@ let delay = 0;
 scene.on("update", e => {
   scrollpos = e.scrollPos / 2200;
   intro.style.width = '100%';
-  text.style.width = '50%';
+  text.style.width = '40%';
   text.style.zIndex='1';
 });
 
