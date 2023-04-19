@@ -30,7 +30,7 @@ body {
 }
 
 .intro-text h1 {
-  font-size: 80px;
+  font-size: 70px;
   color: white;
 }
 
@@ -123,6 +123,7 @@ nav {
     background-color: rgba(26, 55, 134, 0.5);
 	width:25%;
     min-width: 100px;
+    max-width: 150px;
 	height:30px;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
@@ -142,10 +143,11 @@ nav {
     align-items: center;
 }
 
-.join-waitlist form {
+.join-waitlist-item {
     display: flex;
     flex-direction: column;
     width: 50%;
+    min-width: 350px;
 }
 
 form button {
