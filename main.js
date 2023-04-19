@@ -28,6 +28,7 @@ scene.on("update", e => {
   intro.style.width = '100%';
   text.style.width = '45%';
   text.style.zIndex='1';
+  video.setAttribute('webkit-playsinline', 'webkit-playsinline');
 });
 
 setInterval(() => {
