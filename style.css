@@ -1,0 +1,155 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    background-color: black;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro-text {
+  position: absolute;
+  top: 50%;
+  left: 150px;
+  transform: translate(0, -50%);
+}
+
+.intro-text h1 {
+  font-size: 80px;
+  color: white;
+}
+
+.intro-text h2 {
+  font-size: 25px;
+  color: white;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+
+.intro-text a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(26, 55, 134, 0.5);
+    width:100px;
+    height:30px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    border:1px solid rgba(26.000000350177288, 55.00000052154064, 134.00000721216202, 1);
+    color: white;
+}
+
+.second-text {
+  position: relative;
+  top: 50%;
+  width: 40%;
+  left: 150px;
+  transform: translate(0, -50%);
+}
+
+.second-text h1 {
+  font-size: 70px;
+  color: white;
+}
+
+section {
+  height: 100vh;
+  color: white;
+}
+
+.waitlist-nav {
+    color: #6388EC;
+}
+.careers-nav {
+    color: white;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    z-index: 1;
+}
+
+.nav-buttons a {
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logo img {
+    max-width: 70px;
+    height: auto;
+}
+
+
+.text-field { 
+    background-image: linear-gradient(90deg, rgba(26, 55, 134, 1) 0%, rgba(26, 55, 134, 0) 100%);
+	width:550px;
+	height:45px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+    border:1px solid rgba(26.000000350177288, 55.00000052154064, 134.00000721216202, 1);
+    color: white;
+    padding-left: 15px;
+    background-color: rgba(26, 55, 134, 0);
+}
+
+.button { 
+    background-color: rgba(26, 55, 134, 0.5);
+	width:100px;
+	height:30px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+    border:1px solid rgba(26.000000350177288, 55.00000052154064, 134.00000721216202, 1);
+    color: white;
+}
+
+.join-waitlist {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 55, 134, 0);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-waitlist form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+form button {
+    margin-top: 15px;
+}
+
+::placeholder {
+	color: #6388EC;
+}
