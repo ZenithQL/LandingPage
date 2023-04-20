@@ -66,6 +66,7 @@ body {
 
 .second-text h1 {
   font-size: 70px;
+  font-weight: 600;
   color: white;
 }
 
@@ -175,8 +176,9 @@ form button {
 .join-waitlist-item-pal {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 100%;
     min-width: 350px;
+    max-width: 465px;
 }
 
 .join-waitlist-item-pal h1 {
@@ -191,9 +193,9 @@ form button {
 .join-pal-right {
     position: absolute;
     top: 10%;
-    width: 50%;
+    width: 70%;
     min-width: 100px;
-    right: 15%;
+    right: 30%;
     max-width: 430px;
     min-width: 250px;
     height: auto;
@@ -274,7 +276,7 @@ footer .right a {
         flex-direction: row;
         display: flex;
         align-items: center;
-        padding-left: 10%;
+        padding-left: 9%;
         overflow: hidden;
         padding-top: 70px;
     }
@@ -284,7 +286,7 @@ footer .right a {
         top: 10%;
         width: 50%;
         min-width: 100px;
-        right: 10%;
+        right: 18%;
         max-width: 430px;
         min-width: 250px;
         height: auto;
@@ -292,8 +294,14 @@ footer .right a {
     }
 
     .social-icons {
-        padding-top: 190px;
+        padding-top: 150px;
         display: flex;
         justify-content: space-between;
     }
+
+    .second-text h1 {
+        font-size: 40px;
+        font-weight: 600;
+        color: white;
+      }
 }
